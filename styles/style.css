@@ -54,9 +54,9 @@ body {
 .btn-container {
     text-align: center;
 }
-#hero .hero-content .btn {
+.btn {
     color: #FFF;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     padding: 21px 32px;
     border-radius: 8px;
@@ -88,14 +88,31 @@ body {
     font-size: 48px;
     font-weight: 700;
     line-height: 64px;
+    margin: 0 auto;
 }
-
+.card-container {
+    display: flex;
+    gap: 30px;
+}
 .card {
+    width: 424px;
     padding: 48px 0;
+    text-align: center;
 }
 .card .card-title {
+    display: inline-block;
     color: #101010;
-    text-align: center;
     font-size: 24px;
     font-weight: 600;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 14px 32px;
+    margin-top: 32px;
+}
+.card-offer {
+    color: #101010;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 24px 0;
 }
