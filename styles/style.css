@@ -116,3 +116,43 @@ body {
     font-weight: 600;
     padding: 24px 0;
 }
+.about-us {
+    display: flex;
+    gap: 90px;
+}
+.about-img-area, .about-info-area {
+    width: 50%;
+}
+.about-info-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-info h2{
+    color: #101010;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+}
+.about-info p {
+    color: #101010;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    opacity: 0.6;
+    padding: 24px 0;
+}
+.about-info h3 {
+    color: #101010;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+.social {
+    text-align: center;
+}
+svg {
+    padding: 20px 10px;
+}
