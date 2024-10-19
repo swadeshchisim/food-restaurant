@@ -23,7 +23,7 @@ body {
 }
 
 #hero .hero-content {
-    width: 685px;
+    width: 1023px;
 }
 
 #hero .hero-content .sub-title {
@@ -33,4 +33,33 @@ body {
     font-weight: 600;
     line-height: 38px;
     opacity: 0.8;
+}
+
+#hero .hero-content .title {
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+}
+#hero .hero-content .description {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.7;
+    padding: 24px 0 32px;
+}
+.btn-container {
+    text-align: center;
+}
+#hero .hero-content .btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 32px;
+    border-radius: 8px;
+    background: #52C303;
+    border: 0;
 }
