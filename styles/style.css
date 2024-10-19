@@ -66,6 +66,11 @@ body {
 
 .card-box {
     padding: 120px 0;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    max-width: 1320px;
 }
 .card-box .container .sub-title {
     color: #101010;
@@ -75,4 +80,22 @@ body {
     font-weight: 500;
     opacity: 0.6;
     margin-bottom: 16px;
+}
+.card-box .title {
+    width: 691px;
+    color: #101010;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.card {
+    padding: 48px 0;
+}
+.card .card-title {
+    color: #101010;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
 }
