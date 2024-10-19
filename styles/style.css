@@ -17,4 +17,20 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     box-sizing: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    width: 685px;
+}
+
+#hero .hero-content .sub-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 38px;
+    opacity: 0.8;
 }
